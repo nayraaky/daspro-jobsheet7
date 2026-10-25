@@ -25,6 +25,9 @@ public class Tugas2Parkir {
                 } else {
                     total += durasi * 2000;
                 }
+            } else {
+                System.out.println("Jenis kendaraan tidak valid. \nMasukkan lagi!");
+                System.out.println("=============================");
             }
         } while (jenis != 0);
 
